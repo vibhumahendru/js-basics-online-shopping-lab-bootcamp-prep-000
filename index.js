@@ -64,7 +64,7 @@ function placeOrder(credit){
     return `Your total cost is $${t}, which will be charged to the card ${credit}.`
     
   }
-  else {return ""}
+  else {return "Sorry, we don't have a credit card on file for you."}
 }
 
 
