@@ -40,9 +40,9 @@ function viewCart(){
 function total (){
   var sum = 0
   for (var b = 0;b<cart.length;b++){
-   sum =  sum + parseInt.cart[b]
-    
+   sum =  sum + parseInt(cart[b].itemPrice)
   }
+  return sum;
 }
   
 
