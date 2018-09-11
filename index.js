@@ -46,15 +46,14 @@ function total (){
 }
   
 function removeFromCart(item){
-  if(item){
+ 
     for (var i = 0;i<cart.length;i++){
-      if(item === cart[i].itemName){
-       cart.splice(i,1,'')
+      if(cart[i].itemName === item){
+        var newCart = caart.splice(i,1)
+        return cart;
       }
-      
-    }return cart;
-  }
+    }
+  
 }
-
 
 
