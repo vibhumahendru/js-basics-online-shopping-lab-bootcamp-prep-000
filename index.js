@@ -57,9 +57,9 @@ function removeFromCart(item){
 }
 
 function placeOrder(credit){
- var t = total()
+ 
   if(credit) {
-    return t;
+    return `Your total cost is $${total()}`
   }
   
 }
