@@ -45,7 +45,15 @@ function total (){
   return sum ;
 }
   
-
+function removeFromCart(item){
+  if(item){
+    for (var i = 0;i<cart.length;i++){
+      if(item === cart[i].itemName){
+        dele
+      }
+    }
+  }
+}
 
 
 
