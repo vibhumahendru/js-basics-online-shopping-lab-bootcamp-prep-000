@@ -42,7 +42,7 @@ function total (){
   for (var b = 0;b<cart.length;b++){
    sum =  sum + parseInt(cart[b].itemPrice)
   }
-  return sum;
+  return sum + 1;
 }
   
 
